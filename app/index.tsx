@@ -1,6 +1,7 @@
 import CustomButton from "@/components/CustomButton";
 import Example from "@/components/Example";
 import Form from "@/components/Form";
+import { useRouter } from "expo-router";
 import React, {useState} from "react";
 import { Button, Text, TextInput, View } from "react-native";
 
@@ -8,6 +9,7 @@ export default function HomeScreen() {
     const START_VALUE = 0
     const [count, setCount] = useState(START_VALUE);
     const [nome, setNome] = useState('Nikollas');
+    const router = useRouter();
     
     return (
         <View style={{backgroundColor: 'blueviolet'}}>
