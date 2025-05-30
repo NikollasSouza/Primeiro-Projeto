@@ -1,10 +1,15 @@
+import { useRouter } from "expo-router";
 import React from "react";
-import { Text, View } from "react-native";
+import { Button, View } from "react-native";
 
-export default function TabSettings() {
+export default function SettingsScreen(){
+
+    const router = useRouter()
+
     return(
         <View>
-            <Text>Aba Configurações</Text>
+            Estou na tela de configrações
+            <Button title='Ir para as opções' onPress={() => router.push('/navigation')}/>
         </View>
-    );
+    )
 }

@@ -1,10 +1,6 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
 
-export default function DreawerHome() {
-    return(
-        <View>
-            <Text>Menu principal</Text>
-        </View>
-    );
+export default function DrawerHome(){
+    return <Text>Menu Principal</Text>;
 }

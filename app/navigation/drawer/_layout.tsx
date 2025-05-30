@@ -1,5 +1,6 @@
-import { Drawer } from 'expo-router/drawer';
+import {Drawer} from "expo-router/drawer";
+import React from "react";
 
-export default function DrawerLayout() {
+export default function Drawnerlayout(){
     return <Drawer/>;
 }

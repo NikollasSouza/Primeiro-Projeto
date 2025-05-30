@@ -1,15 +1,16 @@
 import { useRouter } from "expo-router";
 import React from "react";
-import { Button, Text, View } from "react-native";
+import { Button, View } from "react-native";
 
-export default function StackHome() {
+export default function OptionsScreen(){
     const router = useRouter()
-
     return(
-        <View>
-            <Text>Tela inicial</Text>
 
-            <Button title="Ir para detalhes" onPress={() => router.push('/navigation/stack/detail')}/>
+
+        <View>
+            Estou na página Options
+
+            <Button title='Ir para Detalhes' onPress={()=>router.push('/navigation/stack/details')}/>
         </View>
-    );
+    )
 }

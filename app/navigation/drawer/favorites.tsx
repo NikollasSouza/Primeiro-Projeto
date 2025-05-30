@@ -1,10 +1,6 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
 
-export default function DreawerFavorite() {
-    return(
-        <View>
-            <Text>Favoritos</Text>
-        </View>
-    );
+export default function DrawerFavorites(){
+    return <Text>Favoritos</Text>;
 }
